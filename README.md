@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# OpenIntra  🚀🏗
+
+The OpenIntra is an Open Source Intranet System tailored for enterprises.  
+
+This frontend is powered by React⚡ and it was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
