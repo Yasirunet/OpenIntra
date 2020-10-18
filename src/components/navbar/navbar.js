@@ -6,6 +6,7 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import { useStyles } from './navbar.style';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
   const classes = useStyles();
@@ -22,9 +23,13 @@ function NavBar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            OpenIntra
+            <Link to="/" className={classes.navItemButton}>
+              OpenIntra
+            </Link>
           </Typography>
-          <Button color="secondary">Login</Button>
+          <Link to="/login" className={classes.navItemButton}>
+            <Button color="secondary">Login</Button>
+          </Link>
         </Toolbar>
       </AppBar>
     </div>
