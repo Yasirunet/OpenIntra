@@ -1,0 +1,34 @@
+{
+    "employees": [
+        {
+            "userId": 1,
+            "jobTitleName": "Developer",
+            "firstName": "Jhon",
+            "lastName": "Doe",
+            "employeeCode": "E1",
+            "department": "SE",
+            "phoneNumber": "408-1234567",
+            "emailAddress": "jhond@gmail.com"
+        },
+        {
+            "userId": 2,
+            "jobTitleName": "Tester",
+            "firstName": "Alan",
+            "lastName": "Irani",
+            "employeeCode": "E1",
+            "department": "QA",
+            "phoneNumber": "408-1234567",
+            "emailAddress": "Alan@gmail.com"
+        },
+        {
+            "userId": 3,
+            "jobTitleName": "Developer",
+            "firstName": "Steve",
+            "lastName": "Smith",
+            "employeeCode": "E1",
+            "department": "SE",
+            "phoneNumber": "408-1234567",
+            "emailAddress": "st.smith@gmail.com"
+        }
+    ]
+}
